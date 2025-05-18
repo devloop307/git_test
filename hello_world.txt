@@ -1,7 +1,170 @@
-Inteligencia Artificial y Aprendizaje Automático
+**METODOLOGÍA AGILE: GUÍA COMPLETA**
 
-La Inteligencia Artificial (IA) es una rama de la informática que busca desarrollar sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el razonamiento, la percepción, la toma de decisiones y el aprendizaje. Dentro de la IA, una de las áreas más relevantes y con mayor impacto en la actualidad es el Machine Learning o aprendizaje automático, que permite a las máquinas aprender a partir de datos sin ser explícitamente programadas para cada tarea.
+---
 
-El Machine Learning se basa en el desarrollo de algoritmos que identifican patrones en grandes volúmenes de información, permitiendo predecir resultados, clasificar elementos, o incluso tomar decisiones en entornos complejos. Estos algoritmos pueden ser supervisados, no supervisados o de refuerzo, dependiendo del tipo de datos y del objetivo del aprendizaje. Por ejemplo, los algoritmos supervisados utilizan datos etiquetados para entrenar modelos que pueden predecir valores futuros, mientras que los no supervisados descubren estructuras ocultas en datos no etiquetados.
+**1. ¿Qué es la Metodología Agile?**
 
-La aplicación de estas tecnologías es vasta y diversa. En sectores como la salud, la IA permite diagnósticos más precisos mediante el análisis de imágenes médicas. En la industria, optimiza procesos de producción y mantenimiento predictivo. En el ámbito financiero, contribuye a la detección de fraudes y análisis de riesgos. Asimismo, se ha integrado en la vida cotidiana mediante asistentes virtuales, sistemas de recomendación, traducción automática, entre otros.
+La metodología Agile es un conjunto de principios y prácticas para la gestión de proyectos que enfatiza la entrega rápida de valor, la adaptación continua al cambio y la colaboración cercana entre los equipos de trabajo y los clientes. Nació como respuesta a las limitaciones de los enfoques tradicionales y fue formalizada en 2001 con el **Manifiesto Ágil**.
+
+---
+
+**2. Principios del Manifiesto Ágil**
+
+El **Manifiesto Ágil**, creado en 2001 por un grupo de expertos en desarrollo de software, establece 4 valores y 12 principios que guían la implementación de metodologías ágiles. Estos principios promueven la flexibilidad, la colaboración y la entrega continua de valor.
+
+### Los 12 Principios de Agile son:
+
+1. **Nuestra mayor prioridad es satisfacer al cliente mediante la entrega temprana y continua de software con valor.**
+   → El enfoque está en generar valor real para el cliente lo antes posible.
+
+2. **Aceptar que los requisitos cambian, incluso en etapas tardías del desarrollo. Los procesos ágiles aprovechan el cambio para proporcionar ventaja competitiva al cliente.**
+   → Agile valora la adaptabilidad y considera los cambios como una oportunidad, no como un problema.
+
+3. **Entregar con frecuencia software funcional, en plazos de pocas semanas a pocos meses, con preferencia al período de tiempo más corto posible.**
+   → Se promueven entregas pequeñas y constantes que permitan ir validando el avance.
+
+4. **Los responsables de negocio y los desarrolladores deben trabajar juntos de forma cotidiana durante todo el proyecto.**
+   → La colaboración cercana y continua garantiza que el producto se alinea con los objetivos del negocio.
+
+5. **Construir proyectos alrededor de individuos motivados. Darles el entorno y el apoyo que necesitan, y confiarles la ejecución del trabajo.**
+   → Agile fomenta la autonomía y la responsabilidad en los equipos.
+
+6. **El método más eficiente y efectivo de comunicar información al equipo de desarrollo y entre sus miembros es la conversación cara a cara.**
+   → Aunque se valora la tecnología, la comunicación directa sigue siendo fundamental.
+
+7. **El software funcionando es la medida principal de progreso.**
+   → Más allá de la documentación o los informes, lo importante es tener un producto funcional.
+
+8. **Los procesos ágiles promueven el desarrollo sostenible. Los patrocinadores, desarrolladores y usuarios deben poder mantener un ritmo constante indefinidamente.**
+   → Se busca evitar el agotamiento, fomentando un flujo de trabajo equilibrado y sostenible.
+
+9. **La atención continua a la excelencia técnica y al buen diseño mejora la agilidad.**
+   → La calidad no se sacrifica por rapidez: un código limpio y bien diseñado facilita el cambio.
+
+10. **La simplicidad —el arte de maximizar la cantidad de trabajo no realizado— es esencial.**
+    → Se debe eliminar todo lo innecesario. Solo se construye lo que aporta valor.
+
+11. **Las mejores arquitecturas, requisitos y diseños emergen de equipos autoorganizados.**
+    → Agile confía en que los equipos competentes pueden organizarse y tomar buenas decisiones sin supervisión constante.
+
+12. **A intervalos regulares, el equipo reflexiona sobre cómo ser más efectivo y ajusta su comportamiento en consecuencia.**
+    → La mejora continua es parte esencial del ciclo ágil: se revisa, se aprende y se mejora constantemente.
+
+---
+
+**3. Marcos de Trabajo Agile**
+
+Los marcos de trabajo más usados que implementan los principios Agile son:
+
+### a) **Scrum**
+
+* Basado en iteraciones llamadas **Sprints** (normalmente de 2 a 4 semanas).
+* Roles clave: **Product Owner**, **Scrum Master** y **Equipo de Desarrollo**.
+* Eventos principales:
+
+  * **Sprint Planning**: planificación del Sprint.
+  * **Daily Scrum**: reunión diaria de seguimiento.
+  * **Sprint Review**: revisión del trabajo realizado.
+  * **Sprint Retrospective**: reflexión y mejora del proceso.
+
+### b) **Kanban**
+
+* Visualiza el flujo de trabajo mediante un tablero.
+* Usa columnas como "Por hacer", "En proceso", "Hecho".
+* Promueve la mejora continua y la limitación del trabajo en curso (WIP).
+
+### c) **Extreme Programming (XP)**
+
+* Alta disciplina en prácticas de ingeniería como:
+
+  * Desarrollo dirigido por pruebas (TDD).
+  * Integración continua.
+  * Programación en parejas.
+* Muy enfocado en la calidad del código.
+
+---
+
+**4. Proceso Agile Paso a Paso**
+
+A continuación, se describe un ciclo típico de trabajo en Agile, usando Scrum como ejemplo:
+
+### Paso 1: **Creación del Product Backlog**
+
+* El **Product Owner** elabora una lista priorizada de funcionalidades, conocidas como **historias de usuario**.
+
+### Paso 2: **Planificación del Sprint (Sprint Planning)**
+
+* Se define qué elementos del backlog se desarrollarán en el Sprint.
+* El equipo define tareas, tiempos y objetivos claros.
+
+### Paso 3: **Ejecución del Sprint**
+
+* El equipo desarrolla el producto en iteraciones cortas (Sprints).
+* Cada día, se realiza un **Daily Scrum** para revisar el progreso.
+
+### Paso 4: **Revisión del Sprint (Sprint Review)**
+
+* Al finalizar el Sprint, se presenta el producto funcional al cliente o stakeholders.
+* Se recibe retroalimentación para mejorar.
+
+### Paso 5: **Retrospectiva del Sprint (Sprint Retrospective)**
+
+* El equipo analiza qué funcionó bien y qué no.
+* Se proponen acciones concretas para el siguiente Sprint.
+
+### Paso 6: **Repetición**
+
+* Se repite el ciclo hasta completar el producto.
+
+---
+
+**5. Roles en Agile**
+
+* **Product Owner**: responsable de definir el producto y priorizar requisitos.
+* **Scrum Master**: facilita el proceso, elimina obstáculos y promueve Agile.
+* **Equipo de desarrollo**: multidisciplinario, encargado de construir el producto.
+
+---
+
+**6. Herramientas Agile más utilizadas**
+
+* **Jira**: gestión de Sprints, historias de usuario y tareas.
+* **Trello**: tablero Kanban visual.
+* **Asana / ClickUp**: seguimiento de tareas colaborativas.
+* **GitLab / GitHub**: para control de versiones e integración con Agile.
+
+---
+
+**7. Buenas Prácticas Agile**
+
+* Crear **historias de usuario claras**: "Como \[rol], quiero \[acción] para \[beneficio]".
+* **Estimar tareas** usando **Planning Poker** o técnicas como Puntos de Historia.
+* **Limitar el WIP** para evitar la sobrecarga.
+* **Automatizar pruebas** e integración para entregas continuas.
+* **Documentar lo necesario**, pero no más de lo que aporte valor.
+* **Involucrar al cliente** continuamente para validar avances.
+
+---
+
+**8. Ventajas de Agile**
+
+* Mayor adaptabilidad al cambio.
+* Entrega más rápida y frecuente de valor.
+* Mayor satisfacción del cliente.
+* Mejor comunicación y trabajo en equipo.
+* Reducción de riesgos mediante entregas incrementales.
+
+---
+
+**9. Desafíos comunes**
+
+* Falta de compromiso del equipo.
+* Poca experiencia con prácticas ágiles.
+* Exceso de reuniones mal gestionadas.
+* No entender que Agile no significa "improvisar", sino iterar con estructura.
+
+---
+
+**10. Conclusión**
+
+Agile no es solo una metodología, sino una **mentalidad de trabajo colaborativo y mejora continua**. Aplicada correctamente, permite crear productos de alta calidad, alineados con las necesidades reales del cliente, de forma más eficiente y flexible.
