@@ -9,7 +9,7 @@ Este proyecto se centra en la Visión por Computadora, una rama de la IA que per
 El objetivo es desarrollar un modelo de IA que pueda clasificar imágenes en distintas categorías de manera automática y precisa. Para ello, se utiliza aprendizaje automático y técnicas de Deep Learning para extraer características relevantes de las imágenes y tomar decisiones basadas en ellas.
 
 🧠 Tecnologías y Algoritmos Utilizados
-Python 3.x
+Python 3.x(extras)
 
 Bibliotecas:
 
